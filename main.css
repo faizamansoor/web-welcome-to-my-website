@@ -3,13 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     
+    
 
 }
 body{
-    min-height: auto;
-}
-section{
-    min-height: auto;
+    max-height: 100vh;
 }
 
 .main.nav{
@@ -59,11 +57,14 @@ section{
 
 main{
     font-family: 'Montserrat', sans-serif;
-    max-width: 95%; margin:30px;
     padding: 1em;
-    font-size: 22px;
-    line-height: 40px;
+    font-size: 18px;
+    line-height: 35px;
+    min-height: 100vh;
 
+}
+.myeducation-pg{
+    background: url(img/certificate-with-ribbon-bow-graduation-hat.jpg);
 }
 
 .outtext{
@@ -75,13 +76,11 @@ main{
 }
 .bullet{
     margin-left: 05%;
-    font-size: 23px;
-    line-height: 40px;
+    font-size: 20px;
+    line-height: 35px;
 }
-.text{
-    font-size: 22px;
-    font-family: 'Montserrat', sans-serif;
-}
+
+
 
 .box-aboutme{
     display: flex;
@@ -92,17 +91,17 @@ main{
     margin: 50px;
 }
 .box-aboutme span{
-    font-size: 25px;
-    line-height: 45px;
+    font-size: 20px;
+    line-height: 35px;
     margin-right: 70px;
 }
 
 
 .heading{
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 30px;
     margin-top: 20px;
+    padding-bottom: 20px;
 } 
 .heading-6{
     font-size: 1.2em;
@@ -110,9 +109,6 @@ main{
     margin-top: 20px;
     margin-bottom: 10px;
 
-}
-.subheader{
-    text-align: left;
 }
 .myeducation-pg{
     background-image: url(img/certificate-with-ribbon-bow-graduation-hat.jpg);
@@ -128,7 +124,7 @@ main{
 
 .grid{
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 40px;
     max-width: 1000px;
     display: grid;
     grid-template-columns:repeat(3, 1fr) ;
